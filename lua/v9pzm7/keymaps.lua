@@ -15,6 +15,9 @@ vim.g.maplocalleader = ' '
 --   term_mode = "t",
 --   command_mode = "c",
 
+-- keymap
+keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
+
 
 -- Normal --
 -- Better window navigation
@@ -23,7 +26,7 @@ keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
-keymap("n", "<leader>e", ":Lex 20<cr>", opts)
+-- keymap("n", "<leader>e", ":Lex 20<cr>", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize +2<CR>", opts)
