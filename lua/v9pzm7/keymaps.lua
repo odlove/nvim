@@ -15,9 +15,7 @@ vim.g.maplocalleader = ' '
 --   term_mode = "t",
 --   command_mode = "c",
 
--- keymap
-keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
-
+------- keymap -------
 
 -- Normal --
 -- Better window navigation
@@ -51,3 +49,8 @@ keymap("t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts)
 keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
+
+
+-- Plugins --
+keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
+keymap("n", "<leader>c", ":w<CR>:VimtexCompileSS<CR>", opts)

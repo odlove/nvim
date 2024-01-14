@@ -9,3 +9,5 @@ require 'v9pzm7.nvim_comment'
 require 'v9pzm7.cmp'
 require 'v9pzm7.mason'
 require 'v9pzm7.lsp'
+
+require 'v9pzm7.vimtex'

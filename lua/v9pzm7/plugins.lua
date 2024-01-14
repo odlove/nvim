@@ -37,5 +37,7 @@ require("lazy").setup({
 
     'terrortylor/nvim-comment',
 
+    'lervag/vimtex',
+
 })
 
