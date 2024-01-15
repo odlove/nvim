@@ -8,7 +8,7 @@ vim.opt.fileencoding = 'utf-8'                  -- the encoding written to a fil
 vim.opt.hlsearch = true                         -- highlight all matches on previous search pattern
 vim.opt.ignorecase = true                       -- ignore case in search patterns
 vim.opt.mouse = 'a'                             -- allow the mouse to be used in neovim
-vim.opt.pumheight = 10                          -- pop up menu height
+vim.opt.pumheight = 6                          -- pop up menu height
 vim.opt.showmode = false                        -- we don't need to see things like -- INSERT -- anymore
 vim.opt.showtabline = 1                         -- show tabs only if there are at least two tab pages
 vim.opt.smartcase = true                        -- search with smart case
@@ -38,3 +38,11 @@ vim.opt.shortmess:append 'c'
 
 vim.cmd 'set whichwrap+=<,>,[,],h,l'
 -- vim.cmd [[set iskeyword+=-]]
+
+-- set quickfix window height to 5
+vim.api.nvim_create_autocmd({"FileType"}, {
+    pattern = {"qf"},
+    callback = function()
+        vim.api.nvim_win_set_height(0, 5)
+    end,
+})
