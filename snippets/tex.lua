@@ -116,6 +116,21 @@ return {
   ),
 
   s(
+    { trig=';d' },
+    { t('\\delta') }
+  ),
+
+  s(
+    { trig=';D' },
+    { t('\\Delta') }
+  ),
+
+  s(
+    { trig=';e' },
+    { t('\\varepsilon') }
+  ),
+
+  s(
     { trig=';g' },
     { t('\\gamma') }
   ),
@@ -131,28 +146,13 @@ return {
   ),
 
   s(
-    { trig=';e' },
-    { t('\\varepsilon') }
-  ),
-
-  s(
-    { trig=';d' },
-    { t('\\delta') }
-  ),
-
-  s(
-    { trig=';D' },
-    { t('\\Delta') }
+    { trig=';t' },
+    { t('\\theta') }
   ),
 
   s(
     { trig=';x' },
     { t('\\xi') }
-  ),
-
-  s(
-    { trig=';t' },
-    { t('\\theta') }
   ),
 
   s(
