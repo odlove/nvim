@@ -131,6 +131,11 @@ return {
   ),
 
   s(
+    { trig=';f' },
+    { t('\\varphi') }
+  ),
+
+  s(
     { trig=';g' },
     { t('\\gamma') }
   ),
@@ -138,6 +143,11 @@ return {
   s(
     { trig=';o' },
     { t('\\omega') }
+  ),
+
+  s(
+    { trig=';ps' },
+    { t('\\psi') }
   ),
 
   s(
