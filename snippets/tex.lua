@@ -308,7 +308,7 @@ return {
 
   s(
     { trig = 'text' },
-    { t('\\text') }
+    { t('\\text{'), i(1), t('}') }
   ),
 
   s(
