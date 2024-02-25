@@ -307,6 +307,11 @@ return {
   ),
 
   s(
+    { trig = 'text' },
+    { t('\\text') }
+  ),
+
+  s(
     { trig = 'log' },
     { t('\\log') }
   ),
