@@ -53,6 +53,7 @@ keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
 -- Plugins --
 keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
+keymap('i', '<leader>e', '<Esc>:NvimTreeToggle<CR>', opts)
 
 keymap("n", "<leader>c", ":w<CR>:VimtexCompileSS<CR>", opts)
 keymap("n", "<leader>f", ":VimtexView<CR>", opts)
