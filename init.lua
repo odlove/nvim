@@ -3,6 +3,7 @@ require 'v9pzm7.plugins'
 require 'v9pzm7.colorscheme'
 
 require 'v9pzm7.nvim_tree'
+require 'v9pzm7.tree_sitter'
 require 'v9pzm7.nvim_comment'
 require 'v9pzm7.telescope'
 

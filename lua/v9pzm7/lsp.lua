@@ -21,3 +21,7 @@ lspconfig.lua_ls.setup {
 lspconfig.texlab.setup {
     capabilities = capabilities,
 }
+
+lspconfig.clangd.setup{
+    filetypes = { "c", "cpp", "objc", "objcpp", "cuda", "proto","hpp"},
+}
