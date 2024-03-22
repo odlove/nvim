@@ -317,6 +317,25 @@ return {
   ),
 
   s(
+    { trig = 'sin' },
+    { t('\\sin') }
+  ),
+
+  s(
+    { trig = 'cos' },
+    { t('\\cos') }
+  ),
+
+  s(
+    { trig = 'tan' },
+    { t('\\tan') }
+  ),
+
+  s(
+    { trig = 'cot' },
+    { t('\\cot') }
+  ),
+  s(
     { trig = 'lim' },
     { t('\\lim_{'), i(1), t('}') }
   ),
