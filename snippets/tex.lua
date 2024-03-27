@@ -317,6 +317,26 @@ return {
   ),
 
   s(
+    { trig = 'sin' },
+    { t('\\sin') }
+  ),
+
+  s(
+    { trig = 'cos' },
+    { t('\\cos') }
+  ),
+
+  s(
+    { trig = 'tan' },
+    { t('\\tan') }
+  ),
+
+  s(
+    { trig = 'cot' },
+    { t('\\cot') }
+  ),
+
+  s(
     { trig = 'lim' },
     { t('\\lim_{'), i(1), t('}') }
   ),
@@ -324,6 +344,16 @@ return {
   s(
     { trig = 'sum' },
     { t('\\sum_{'), i(1), t('}^{'), i(2), t('}') }
+  ),
+
+  s(
+    { trig = 'int' },
+    { t('\\int') }
+  ),
+
+  s(
+    { trig = 'rm' },
+    { t('\\mathrm') }
   ),
 }
 
