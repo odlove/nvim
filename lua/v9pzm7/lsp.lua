@@ -23,5 +23,10 @@ lspconfig.texlab.setup {
 }
 
 lspconfig.clangd.setup{
+    cmd = {
+        "clangd",
+        "--header-insertion=never",
+    },
+    capabilities = capabilities,
     filetypes = { "c", "cpp", "objc", "objcpp", "cuda", "proto","hpp"},
 }
